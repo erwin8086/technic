@@ -6,6 +6,11 @@ minetest.register_craftitem("technic:silicon_wafer", {
 	inventory_image = "technic_silicon_wafer.png",
 })
 
+minetest.register_craftitem("technic:lube", {
+	description = S("Lube oil"),
+	inventory_image = "technic_lube.png",
+})
+
 minetest.register_craftitem( "technic:doped_silicon_wafer", {
 	description = S("Doped Silicon Wafer"),
 	inventory_image = "technic_doped_silicon_wafer.png",

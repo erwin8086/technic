@@ -5,7 +5,7 @@ minetest.register_craft({
 	output = 'technic:lv_extractor',
 	recipe = {
 		{'technic:treetap', 'technic:motor',          'technic:treetap'},
-		{'technic:treetap', 'technic:machine_casing', 'technic:treetap'},
+		{'pipeworks:tube_1', 'technic:machine_casing', 'pipeworks:tube_1'},
 		{'',                'technic:lv_cable',       ''},
 	}
 })

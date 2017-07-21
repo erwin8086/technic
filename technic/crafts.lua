@@ -196,3 +196,9 @@ minetest.register_craft({
 		"group:sand",
 	},
 })
+
+minetest.register_craft({
+	type = "fuel",
+	recipe = "technic:lube",
+	burntime = 20,
+})
