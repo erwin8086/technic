@@ -97,3 +97,23 @@ minetest.register_abm({
 	end
 })
 
+-- Show both treetap recipes in unified_inventory
+unified_inventory.register_craft_type("treetap", {
+	description = "Use Treetap",
+	width = 1,
+	height = 1,
+})
+
+unified_inventory.register_craft({
+	type = "treetap",
+	output = "technic:raw_latex",
+	items = {"moretrees:rubber_tree_trunk"},
+	width = 0,
+})
+
+unified_inventory.register_craft({
+	type = "treetap",
+	output = "homedecor:oil_extract",
+	items = {"group:leaves"},
+	width = 0,
+})
