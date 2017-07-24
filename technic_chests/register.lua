@@ -374,5 +374,8 @@ function technic.chests:register(name, data)
 		end
 	end
 
+	-- Spoil items in technic chests
+	spoil.register_inv(":"..nn, {"main"})
+
 end
 
